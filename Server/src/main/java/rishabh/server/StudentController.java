@@ -27,6 +27,12 @@ public class StudentController {
         return ResponseEntity.ok(student);
     }
     
+    @GetMapping("/")
+    public ResponseEntity<String> sayHello(){
+        
+        return ResponseEntity.ok("HELLO");
+    }
+    
     @PostMapping("")
     public ResponseEntity<Student> createStudent(@RequestBody Student student ){
         return ResponseEntity.ok(studentRepository.save(student));
