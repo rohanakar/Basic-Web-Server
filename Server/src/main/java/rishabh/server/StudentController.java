@@ -30,7 +30,7 @@ public class StudentController {
     @GetMapping("/")
     public ResponseEntity<String> sayHello(){
         
-        return ResponseEntity.ok("HELLO");
+        return ResponseEntity.ok("HELLO_WORLD");
     }
     
     @PostMapping("")
