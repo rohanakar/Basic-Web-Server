@@ -1,4 +1,4 @@
-package rishabh.server;
+package rishabh.server.config;
 
 import oracle.jdbc.datasource.impl.OracleDataSource;
 import org.slf4j.Logger;
