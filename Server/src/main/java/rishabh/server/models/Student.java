@@ -1,4 +1,4 @@
-package rishabh.server;
+package rishabh.server.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
